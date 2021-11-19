@@ -65,7 +65,7 @@ Let's get Started!
 
 ### Creating & Linking a CSS Stylesheet
 
-HTML![sectionTwo_2-1](img\sectionTwo_2-1.png)
+HTML![sectionTwo_2-1](img/sectionTwo_2-1.png)
 
 The <link> tag along with the rel attribute(relationship of the current document with the linked document), in our case, the linked document is "stylesheet" does the work.
 
@@ -74,7 +74,7 @@ The <link> tag along with the rel attribute(relationship of the current document
 Easiest way to test it is typing a random obvious property that changes the way a website looks.
 Something just like this:
 
-CSS![sectionTwo_2-2](img\sectionTwo_2-2.png)
+CSS![sectionTwo_2-2](img/sectionTwo_2-2.png)
 
 Now check the background of your HTML page in browser. If it's red then the stylesheet is linked properly else it's not.
 
@@ -99,15 +99,15 @@ Now, there are two different documents that we've got, the HTML doc & the CSS do
 Here's an example:
 
 HTML
-![sectionThree_3-1](img\sectionThree_3-1.png)
+![sectionThree_3-1](img/sectionThree_3-1.png)
 
 CSS
 
-![sectionThree_3-2](img\sectionThree_3-2.png)
+![sectionThree_3-2](img/sectionThree_3-2.png)
 
 Result
 
-![sectionThree_3-3](img\sectionThree_3-3.png)
+![sectionThree_3-3](img/sectionThree_3-3.png)
 
 ### Selectors : The Class Selector
 
@@ -118,15 +118,15 @@ Result
 Here's an example:
 
 HTML
-![sectionThree_3-4](img\sectionThree_3-4.png)
+![sectionThree_3-4](img/sectionThree_3-4.png)
 
 CSS
 
-![sectionThree_3-5](img\sectionThree_3-5.png)
+![sectionThree_3-5](img/sectionThree_3-5.png)
 
 Result
 
-![sectionThree_3-6](img\sectionThree_3-6.png)
+![sectionThree_3-6](img/sectionThree_3-6.png)
 
 ### Selectors : The ID Selector
 
@@ -137,29 +137,29 @@ Result
 Here's an example:
 
 HTML
-![sectionThree_3-7](img\sectionThree_3-7.png)
+![sectionThree_3-7](img/sectionThree_3-7.png)
 
 CSS
 
-![sectionThree_3-8](img\sectionThree_3-8.png)
+![sectionThree_3-8](img/sectionThree_3-8.png)
 
 Result
 
-![sectionThree_3-9](img\sectionThree_3-9.png)
+![sectionThree_3-9](img/sectionThree_3-9.png)
 
 ### Classes & ID in HTML
 
 Here is it's usage:
 
 HTML
-![sectionThree_3-10](img\sectionThree_3-10.png)
+![sectionThree_3-10](img/sectionThree_3-10.png)
 
 CSS
 
-![sectionThree_3-11](img\sectionThree_3-11.png)
+![sectionThree_3-11](img/sectionThree_3-11.png)
 
 Result
-![sectionThree_3-12](img\sectionThree_3-12.png)
+![sectionThree_3-12](img/sectionThree_3-12.png)
 
 You may see the changes in the text color of "My Website", "About Me" and "Contact Us".
 
@@ -174,14 +174,14 @@ inline-style > ID > Class > Elements
 Here's an example:
 
 HTML
-![sectionThree_3-13](img\sectionThree_3-13.png)
+![sectionThree_3-13](img/sectionThree_3-13.png)
 
 CSS
 
-![sectionThree_3-14](img\sectionThree_3-14.png)
+![sectionThree_3-14](img/sectionThree_3-14.png)
 
 Result
-![sectionThree_3-15](img\sectionThree_3-15.png)
+![sectionThree_3-15](img/sectionThree_3-15.png)
 
 As you may see that the Order of Specificity has been followed for the above example.
 The <h2> Services </h2> has both the class and id selectors as well as inline styling. Finally, the inline-style i.e. `color: steelblue` is all that is applied to the element as inline-style have the highest specificity.
@@ -217,7 +217,7 @@ td:only-child {
 ```
 
 Result
-![sectionThree_3-16](img\sectionThree_3-16.png)
+![sectionThree_3-16](img/sectionThree_3-16.png)
 
 The "About Me" heading on hover changes its color to red from blue. Its done using the hover pseudo class selector. There are also some other pseudo-selectors such as `li:only-child , :link and :visited`. You may see the changes for the same in the result, the purple colored list element and the red colored anchor tag that says "Click here to go to Google".
 
@@ -247,7 +247,7 @@ The "About Me" heading on hover changes its color to red from blue. Its done usi
    	<button>Submit</button>
    </form>
    <!-- Here in this case, the textarea and button share the common parent element(form). Hence, the button color will be changed to purple.
-   
+
    <!-- Case-2: button outside the form element -->
    <form>
    	<input type="text" placeholder="Full Name">
@@ -313,11 +313,11 @@ The "About Me" heading on hover changes its color to red from blue. Its done usi
 
    Result
 
-   ![sectionThree_3-17](img\sectionThree_3-17.png)
+   ![sectionThree_3-17](img/sectionThree_3-17.png)
 
- This is the result that we get through a child selector. It ignores the `<li>` present in the `<ol>` inside the parent `<ul>`.
+This is the result that we get through a child selector. It ignores the `<li>` present in the `<ol>` inside the parent `<ul>`.
 
- HTML
+HTML
 
 ```html
 <ul>
@@ -330,7 +330,7 @@ The "About Me" heading on hover changes its color to red from blue. Its done usi
 </ul>
 ```
 
- CSS
+CSS
 
 ```css
 /* Descendant Selector */
@@ -339,11 +339,11 @@ ul li {
 }
 ```
 
- Result
+Result
 
-![sectionThree_3-18](img\sectionThree_3-18.png)
+![sectionThree_3-18](img/sectionThree_3-18.png)
 
- This is the result that we get through a descendant selector. It considers every `<li>` present inside the parent `<ul>`.
+This is the result that we get through a descendant selector. It considers every `<li>` present inside the parent `<ul>`.
 
 ### Attribute Selectors
 
@@ -366,13 +366,13 @@ It allows selecting elements based on their attributes
    }
    ```
 
- HTML
+HTML
 
 ```html
 <img src="../img/img-1.jpg" /> <img src="../img/img-2.jpg" />
 ```
 
- CSS
+CSS
 
 ```css
 img[src*="../img/"] {
@@ -394,9 +394,9 @@ A $ symbol inplace of the * symbol would select all the images which include "..
 <h2 class="subtitle article-subtitle">About Me</h2>
 ```
 
- There are two classes assigned to this element. Now, we got to select this element only using the "article-subtitle" class. So, here's the CSS for the same.
+There are two classes assigned to this element. Now, we got to select this element only using the "article-subtitle" class. So, here's the CSS for the same.
 
- CSS
+CSS
 
 ```css
 h2[class~="article-subtitle"] {
@@ -428,4 +428,3 @@ selector-name {
 ```
 
 ---
-
